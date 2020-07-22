@@ -1,0 +1,99 @@
+body{background-color:#f5f7f8;}
+.header{border-top:5px solid #99D140;background: url(img/fr-04.jpg) no-repeat scroll 0px -115px;background-size: 100%;padding:50px 0px;min-height: 275px;}
+.logo{}
+.logo img{width: 190px;height: 200px;margin-top: 10px;margin-bottom: 10px;}
+.header_button{margin-top:20px;}
+.header_button button{margin-right: 30px;float: right;}
+.search{margin-top: 22px;}
+.latest_post_title{min-height: 34px;}
+.latest_post_title h4{float: left;width: 14%;margin:0px;padding: 7px 0px;text-align: center;font-size: 19px;position: relative;}
+.latest_post_title marquee{position: absolute;width:82%;padding: 6px 37px;}
+
+/* style for main menu */
+.main_menu{background: #4D636F;}
+.main_menu ul{}
+.main_menu ul li{position: relative;}
+.main_menu ul li ul{position: absolute;top: 0px;left: 0px;width:180px;background: #4D636F;list-style: none;z-index: 999;margin-top:60px;padding:0px;box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.25);display: none;
+	transition:all 0.9s ease 0.1s;
+	-webkit-transition:all 0.9s ease 0.1s;
+	-moz-transition:all 0.9s ease 0.1s;
+	-o-transition:all 0.9s ease 0.1s;
+}
+.main_menu ul li:hover ul{margin-top:40px;display: block;}
+.main_menu ul li ul li{float: none;}
+.main_menu ul li ul li a{display: block;color:#fff;padding: 5px 10px;}
+.main_menu ul li a{color:#fff;text-decoration: none;}
+.main_menu ul li a:hover{color:#000;background: #f4f4f4;border-radius:0px;}
+
+.page_body{margin-top:10px; margin-bottom:30px;}
+.slider{background: #fff;padding: 5px;padding-bottom: 10px;}
+.slider img{width:100%;}
+
+.popular_post{background:#fff; padding:10px; margin-bottom:20px;}
+.popular_post h2{margin: 0px;padding: 7px 0px;font-size: 18px;}
+.single_popular_post{text-align: center;padding:10px 0px;}
+.single_popular_post img{width:100px;height:100px;margin:0px auto; display:block;}
+.single_popular_post h3{color:#000;font-size:22px;}
+.single_popular_post p{margin-top: 10px;margin-bottom:3px;color:#000;}
+.single_popular_post a{display: block;font-size: 16px}
+
+.category_list{background:#fff; padding:10px; margin-bottom:20px;}
+.category_list h2{margin: 0px;padding: 7px 0px;font-size: 18px;}
+.category_list ul{margin:0px; padding:0px; list-style: none;padding:10px 0px;}
+.category_list ul li{display: inline;}
+.category_list ul li a{display: inline-block;text-decoration: none;background: #FDF5E6;padding: 2px 15px;margin: 3px;} 
+
+.searchbar{background:#fff;padding:10px;margin-bottom:10px;}
+
+.useraccount{background:#fff;padding:10px;margin-bottom:10px;}
+.useraccount h2{margin:0px;padding: 7px 0px;font-size: 18px;margin-bottom:10px;}
+
+.recent_post{background:#fff; padding:10px; margin-bottom:20px;}
+.single_recent_post{}
+.single_recent_post h2{margin:0px;padding: 7px 0px;font-size: 18px;margin-bottom:10px;}
+.single_recent_post ul{margin:0px;padding: 0px;list-style: none;}
+.single_recent_post ul li{padding:7px 0px;border-bottom: 2px dotted #cc0000;}
+.single_recent_post ul li a{display: block;color:#000;text-decoration: none}
+.single_recent_post_item{}
+.single_recent_post_item img{width:60px; height:60px; float: left;margin-bottom:3px;margin-right:10px;}
+.single_recent_post_item h3{font-size: 20px;color: #000;margin-left: 70px;margin-bottom:10px;}
+.single_recent_post_item p{color: #000;font-size: 14px;}
+
+.single_category{margin-top:20px;padding:10px;}
+.category_title{border-bottom:2px solid green;margin-bottom:15px;}
+.category_title h2{background: green;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 30px;
+    font-size: 20px;margin:0px;}
+.single_category_post{}
+.single_category_post img{width:60px;height:60px;}
+.single_category_post h3{font-size: 19px;color: #000;}
+.single_category_post p{font-size:15px;color: #000;}
+.single_category_post a{}
+
+/*-- style for bloging section --*/
+.all_teaching{padding:10px;}
+.teaching_title{border-bottom:2px solid green;margin-bottom:15px;}
+.teaching_title h2{background: green;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 30px;
+    font-size: 20px;margin:0px;}
+.single_teaching{margin-bottom: 15px;padding: 10px;}
+.single_teaching_head{overflow: hidden;margin-bottom:5px;}
+.single_teaching_head img{width:60px; height:60px;float: left;margin-right:10px;}
+.single_teaching_head h3{font-size: 19px;color: #000;margin-left:75px;} 
+.single_teaching_head i{}
+.single_teaching_body img{width:100%;margin-top:10px;margin-bottom:10px;}
+.single_teaching_body p{font-size:15px;color: #000;}
+.single_teaching_body a{}
+.comment_template{padding:20px;}
+
+
+.pagination{margin:0px 0px;}
+
+
+.footer_area{border-bottom:10px solid #99D140;}
+
+
